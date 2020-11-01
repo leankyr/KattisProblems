@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TakeTwoStones", "TakeTwoStones.csproj", "{CF96760B-764F-4F3C-9D1F-C2AC94655172}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF96760B-764F-4F3C-9D1F-C2AC94655172}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF96760B-764F-4F3C-9D1F-C2AC94655172}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF96760B-764F-4F3C-9D1F-C2AC94655172}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF96760B-764F-4F3C-9D1F-C2AC94655172}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C0BA3700-0E64-4DEE-859E-C2053CE797D5}
+	EndGlobalSection
+EndGlobal
