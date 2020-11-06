@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberFun", "NumberFun.csproj", "{D294E182-43A0-46A7-900F-59411314A0AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D294E182-43A0-46A7-900F-59411314A0AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D294E182-43A0-46A7-900F-59411314A0AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D294E182-43A0-46A7-900F-59411314A0AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D294E182-43A0-46A7-900F-59411314A0AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {83CD22F3-B783-4ADF-B6FB-98A74EF58675}
+	EndGlobalSection
+EndGlobal
