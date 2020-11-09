@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9DF7CFA7-4018-4885-90D2-64DAEB93FE72}</ProjectGuid>
+    <ProjectGuid>{6B1B0CD7-E0C4-4F33-86B0-86BA4009AA1C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>TaisFormula</RootNamespace>
-    <AssemblyName>TaisFormula</AssemblyName>
+    <RootNamespace>SynchronizingLists</RootNamespace>
+    <AssemblyName>SynchronizingLists</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

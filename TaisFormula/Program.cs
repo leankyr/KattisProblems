@@ -10,20 +10,38 @@ namespace TaisFormula
     {
         static void Main(string[] args)
         {
-            using (StreamReader sr = new StreamReader("C:/Users/leankyr/source/repos/KattisProblems/Inputs/taisformula/1.in"))
+            using (StreamReader sr = new StreamReader("C:/Users/leankyr/source/repos/KattisProblems/Inputs/taisformula/2.in"))
             {
-                while (true)
+                string line = sr.ReadLine();
+                string[] split = line.Split(new char[] { ' ' }, StringSplitOptions.None);
+                double N = double.Parse(split[0]);
+
+                line = sr.ReadLine();
+                split = line.Split(new char[] { ' ' }, StringSplitOptions.None);
+                double pt = double.Parse(split[0]);
+                double pv = double.Parse(split[1]);
+
+                double sum = 0;
+                for (int i = 1; i<N; i++)
                 {
-                    string P1 = sr.ReadLine();
-                    string[] split = P1.Split(new char[] { ' ' }, StringSplitOptions.None);
+                    line = sr.ReadLine();
+                    split = line.Split(new char[] { ' ' }, StringSplitOptions.None);
+                    double t = double.Parse(split[0]);
+                    double v = double.Parse(split[1]);
 
-                    
-                    
-                    
-                    Console.WriteLine(2 * Total);
+                    double A = ((pv + v) / 2) * (t - pt);
 
+                    sum += A;
+                        
+                        pt = t;
+                        pv = v;
 
                 }
+                Console.WriteLine(sum/1000);
+
+                    
+
+                
                 Console.ReadKey();
 
             }

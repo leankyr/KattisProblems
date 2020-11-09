@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("TaisFormula")]
+[assembly: AssemblyTitle("SynchronizingLists")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("TaisFormula")]
+[assembly: AssemblyProduct("SynchronizingLists")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("9df7cfa7-4018-4885-90d2-64daeb93fe72")]
+[assembly: Guid("6b1b0cd7-e0c4-4f33-86b0-86ba4009aa1c")]
 
 // Version information for an assembly consists of the following four values:
 //
