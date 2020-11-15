@@ -1,4 +1,5 @@
 ﻿using System;
+using System.CodeDom;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -28,24 +29,66 @@ namespace SynchronizingLists
                         l1.Add(int.Parse(line));
                     }
 
+                    
+
                     for (int i = 0; i < n; i++)
                     {
                         line = sr.ReadLine();
                         l2.Add(int.Parse(line));
                     }
-                  
+
+                    List<int> res1 = new List<int>(l1); // this is how to copy lists
+                    List<int> res2 = new List<int>(l2);
+                    int[] l2n = new int[n];
+
+                    /*
+                    foreach (int i in l1)
+                    {
+                        Console.WriteLine(i);
+                    }
+
+                    foreach (int i in res1)
+                    {
+                        Console.WriteLine(i);
+                    }
+                    */
+                    for(int i = 0; i < n; i++) 
+                    {
+                        int ir1 = res1.IndexOf(res1.Min());
+                        int li = l1.IndexOf(res1.Min());
+
+                        l2n[li] = res2.Min();
+
+                        res1.RemoveAt(ir1);
+                        int ir2 = res2.IndexOf(res2.Min());
+                        res2.RemoveAt(ir2);
+                    }
+
+                    foreach (int i in l2n)
+                    {
+                        Console.WriteLine(i);
+                    }
+
+
 
 
                 }
                     
-                    Console.ReadKey();
-            }       
-                //Console.WriteLine(s);
 
-        }
-            
+
+
+                Console.ReadKey();
+
+
+            }
+
+                
+        }       
+                
 
     }
+            
+
+}
 
     
-}
