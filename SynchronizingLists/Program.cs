@@ -37,7 +37,7 @@ namespace SynchronizingLists
                         l2.Add(int.Parse(line));
                     }
 
-                    List<int> res1 = new List<int>(l1); // this is how to copy lists
+                     // this is how to copy lists
                     List<int> res2 = new List<int>(l2);
                     int[] l2n = new int[n];
 

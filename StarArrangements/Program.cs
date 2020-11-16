@@ -18,8 +18,15 @@ namespace StarArrangemets
                 string line = sr.ReadLine();
                 string[] split = line.Split(new char[] { ' ' }, StringSplitOptions.None);
                 int S = int.Parse(split[0]);
+                Console.WriteLine(S + ":");
+                for (int i = 2; i <= (S /2) +1; i++) 
+                { 
 
-                
+                    if(S%(2*i -1) == i || S%(2*i -1) == 0)
+                        Console.WriteLine(i + "," + (i - 1));
+                    if (S % i == 0)
+                        Console.WriteLine(i + "," + i);
+                }
 
                 
 
